@@ -17,6 +17,7 @@ body {
 .logotype {
     color: white;
     font-size: 40px;
+    padding-top: 20px;
 }
 
 .order-top {
@@ -36,7 +37,7 @@ body {
     padding-left: 200px;
     font-size: 30px;
     flex-direction: column;
-    width: 60%;
+    width: 70%;
 }
 
 .title-icon{
@@ -48,7 +49,7 @@ body {
 .burguer-one{
     padding-left: 100px;
     height: 500px;
-    width: auto;
+    width: 50%;
 }
 
 .content-top-txt {
@@ -77,3 +78,125 @@ body {
     padding-left: 15px;
 }
 
+.search-area {
+    background-color: rgb(30, 30, 30);
+}
+
+.search-title {
+    padding-left: 220px;
+    font-size: 30px;
+    width: 18%;
+}
+
+.search-tools {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(30, 30, 30);
+}
+
+.search-list {
+    width: 35%;
+    background-color: rgb(35, 35, 35);
+    font-size: 25px;
+}
+
+.btn-pesquisa {
+    background-color: rgb(35, 35, 35);
+    color: gray;
+    border: none;
+    width: 400px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 20px ;
+}
+
+/* ------------------------------ */
+
+/*              MENU              */
+
+/* ------------------------------ */
+
+
+.list-menu {
+    display: grid;
+    grid-template-areas: 
+    "first second third"
+    "four five six";
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-auto-rows: 400px;
+    gap: 200px;
+}
+
+.burger-img {
+    width: 90%;
+    background-color: rgb(35, 35, 35);
+}
+
+.item1 {
+    grid-area: first;
+    list-style: none;
+    width: 300px;
+    height: 300px;
+}
+.item2 {
+    grid-area: second;
+    list-style: none;
+    width: 300px;
+    height: 300px;
+}
+.item3 {
+    grid-area: third;
+    list-style: none;
+    width: 300px;
+    height: 300px;
+}
+.item4 {
+    grid-area: four;
+    list-style: none;
+    width: 300px;
+    height: 300px;
+}
+.item5 {
+    grid-area: five;
+    list-style: none;
+    width: 300px;
+    height: 300px;
+}
+.item6 {
+    grid-area: six;
+    list-style: none;
+    width: 300px;
+    height: 300px;
+}
+
+.card {
+    background-color: rgb(30, 30, 30);
+    width: 90%;
+}
+
+.menu-name {
+    font-size: 28px;
+}
+
+.price {
+    color: orangered;
+    font-size: 28px;
+}
+
+/* --------------------------------- */
+
+/*              Footer               */
+
+/* --------------------------------- */
+
+.bottom-final {
+    height: 200px;
+    background-color: rgb(40, 40, 40);
+}
+
+.bottom-logotype {
+    display: flex;
+    padding-left: 200px;
+    padding-top: 100px
+}
