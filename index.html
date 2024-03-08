@@ -5,21 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link href="./css/tablet.css" rel="stylesheet" media="screen and (max-width:1024px)">
-    <link href="./css/mobile.css" rel="stylesheet" media="screen and (max-width:812px)">
+    <link href="./css/mobile.css" rel="stylesheet" media="screen and (max-width:980px)">
     <title>B7Burguer</title>
 </head>
 <body>
     <header>
         <nav class="top">
         <ul class="top-content">
-        <li class="logotype" href="" ><img src="./img burger/MicrosoftTeams-image.png" alt="logo"></li>
+        <li class="logotype" href="" ><img src="./img burger/MicrosoftTeams-image.png" alt="logo"> <i class="fa-solid fa-bars"></i></li>
         <li class="inicio" href="">Início</li>
         <li class="Burgers" href="">Burgers</li>
         <li class="Contato" href="">Contato</li>
-    
+            
         <li><button class="order-top" href="">Fazer Pedido</button></li>
-        </ul>
+    </ul>
     </nav>
     </header>
 
@@ -42,9 +41,9 @@
             </div>
                 <div class="search-list">
                <form action="/action_page.php"></form>
-               <label for="burger">Selecionar Categoria</label>
-               <select name="burger" id="burger"></select>
-               <option value=""disabled selected>Selecione uma opção</option>
+               <label for="burger"></label>
+               <select name="burger" id="burger">
+               <option value=""disabled selected>Selecione uma categoria</option>
                <option value="tradicional">Tradicional</option>
                <option value="bacon">Bacon 2 floors</option>
                <option value="texas">Texas Burger</option>
