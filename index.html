@@ -1,123 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link href="./css/mobile.css" rel="stylesheet" media="screen and (max-width:980px)">
+    <link href="./css/tablet.css" rel="stylesheet" media="screen and (max-width:980px)">
+    <link href="./css/mobile.css" rel="stylesheet" media="screen and (max-width:393px)">
     <title>B7Burguer</title>
 </head>
+
 <body>
     <header>
         <nav class="top">
-        <ul class="top-content">
-        <li class="logotype" href="" ><img src="./img burger/MicrosoftTeams-image.png" alt="logo"> <i class="fa-solid fa-bars"></i></li>
-        <li class="inicio" href="">Início</li>
-        <li class="Burgers" href="">Burgers</li>
-        <li class="Contato" href="">Contato</li>
-            
-        <li><button class="order-top" href="">Fazer Pedido</button></li>
-    </ul>
-    </nav>
+            <ul class="top-content">
+                <li class="logotype" href=""><img src="./img burger/MicrosoftTeams-image.png" alt="logo"> <i
+                        class="fa-solid fa-bars"></i></li>
+                <li class="inicio" href="">Início</li>
+                <li class="Burgers" href="">Burgers</li>
+                <li class="Contato" href="">Contato</li>
+
+                <li><button class="order-top" href="">Fazer Pedido</button></li>
+            </ul>
+        </nav>
     </header>
 
-   <main>
-       <section class="mid-top-content"> 
-           <div class="title-icon"> 
-           <h1 class="content-top-txt">O Hamburguer mais delicioso.</h1><i class="fa-regular fa-face-smile" style="color: #FFD43B;"></i>
-           <img class="burguer-one" src="./img burger/burger-login 1.png" alt="foto do primeiro hamburguer">
-           </div>
-           <p class="content-bottom-txt">A primeira hamburgueria virtual que você faz o pedido online e come o burger através do computador.</p>
-           <button class="content-btn">Fazer pedido</button>
-       </section>
-       <section class="mid-bottom-content">
-           <div class="search-area">
-               <h2 class="search-title">Pesquise o seu hamburguer favorito!</h2>
-               <div class="search-tools">
-                   <div class="search-bar">
-                       <i class="fa-solid fa-magnifying-glass"></i>
-                <input class="btn-pesquisa" type="search" placeholder="Digite o nome do Burger">
+    <main>
+        <section class="mid-top-content">
+            <div class="title-icon">
+                <h1 class="content-top-txt">O Hamburguer mais delicioso.</h1><i class="fa-regular fa-face-smile"
+                    style="color: #FFD43B;"></i>
+                <img class="burguer-one" src="./img burger/burger-login 1.png" alt="foto do primeiro hamburguer">
             </div>
-                <div class="search-list">
-               <form action="/action_page.php"></form>
-               <label for="burger"></label>
-               <select name="burger" id="burger">
-               <option value=""disabled selected>Selecione uma categoria</option>
-               <option value="tradicional">Tradicional</option>
-               <option value="bacon">Bacon 2 floors</option>
-               <option value="texas">Texas Burger</option>
-               <option value="cheese">Cheesy</option>
-               <option value="tomatoe">Extra tomatoes</option>
-               <option value="egg">Bacon and Eggs</option>
-                </select>
-                <br><br>
-            </form>
-               </div>
-            </div>
-
-           </div>
-       </section>
-       <section class="bottom">
-        <div class="menu">
-            <ul class="list-menu">
-                <li class="item1">
-                    <img class="burger-img" src="./img burger/Card-burger-1 1.png" alt="tradicional">
-                    <div class="card">
-                    <h3>Tradicional</h3>
-                    <h2 class="menu-name">Burger Tradicional</h2>
-                    <h2 class="price">R$ 25,50</h2>
+            <p class="content-bottom-txt">A primeira hamburgueria virtual que você faz o pedido online e come o burger
+                através do computador.</p>
+            <button class="content-btn">Fazer pedido</button>
+        </section>
+        <section class="mid-bottom-content">
+            <div class="search-area">
+                <h2 class="search-title">Pesquise o seu <br>hamburguer favorito!</h2>
+                <div class="search-tools">
+                    <div class="search-bar">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input class="btn-pesquisa" type="search" placeholder="Digite o nome do Burger">
                     </div>
-                </li>
-                <li class="item2">
-                    <img class="burger-img" src="./img burger/Card-burger-1 1.png" alt="Bacon 2 floors">
-                    <div class="card">
-                    <h3>Tradicional</h3>
-                    <h2 class="menu-name">Bacon 2 floors</h2>
-                    <h2 class="price">R$ 25,50</h2>
+                    <div class="search-list">
+                        <form action="/action_page.php"></form>
+                        <label for="burger"></label>
+                        <select name="burger" id="burger">
+                            <option value="" disabled selected>Selecione uma categoria</option>
+                            <option value="tradicional">Tradicional</option>
+                            <option value="bacon">Bacon 2 floors</option>
+                            <option value="texas">Texas Burger</option>
+                            <option value="cheese">Cheesy</option>
+                            <option value="tomatoe">Extra tomatoes</option>
+                            <option value="egg">Bacon and Eggs</option>
+                        </select>
+                        <br><br>
+                        </form>
                     </div>
-                </li>
-                <li class="item3">
-                    <img class="burger-img" src="./img burger/Card-burger-1 1.png" alt="Texas">
-                    <div class="card">
-                    <h3>Tradicional</h3>
-                    <h2 class="menu-name">Texas Burger</h2>
-                    <h2 class="price">R$ 25,50</h2>
-                    </div>
-                </li>
-                <li class="item4">
-                    <img class="burger-img" src="./img burger/Card-burger-1 1.png" alt="Cheesy">
-                    <div class="card">
-                    <h3>Tradicional</h3>
-                    <h2 class="menu-name">Cheesy</h2>
-                    <h2 class="price">R$ 25,50</h2>
-                    </div>
-                </li>
-                <li class="item5">
-                    <img class="burger-img" src="./img burger/Card-burger-1 1.png" alt="Extra tomatoes">
-                    <div class="card">
-                    <h3>Tradicional</h3>
-                    <h2 class="menu-name">Extra tomatoes</h2>
-                    <h2 class="price">R$ 25,50</h2>
-                    </div>
-                </li>
-                <li class="item6">
-                    <img class="burger-img" src="./img burger/Card-burger-1 1.png" alt="egg">
-                    <div class="card">
-                    <h3>Tradicional</h3>
-                    <h2 class="menu-name">Bacon and eggs</h2>
-                    <h2 class="price">R$ 25,50</h2>
                 </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <footer class="bottom-final">
-        <div class="bottom-content">
-            <img class="bottom-logotype" src="./img burger/MicrosoftTeams-image.png" alt="logofinal">
-        </div>
-    </footer>
-   </main>
+
+            </div>
+        </section>
+        <section class="bottom">
+            <div class="menu">
+                <ul class="list-menu">
+                    <li class="item1">
+                        <img class="burger-img" src="./img burger/Card-burger-1 1.png" alt="tradicional">
+                        <div class="card">
+                            <h3>Tradicional</h3>
+                            <h2 class="menu-name">Burger Tradicional</h2>
+                            <h2 class="price">R$ 25,50</h2>
+                        </div>
+                    </li>
+                    <li class="item2">
+                        <img class="burger-img" src="./img burger/Card-burger-1 1.png" alt="Bacon 2 floors">
+                        <div class="card">
+                            <h3>Tradicional</h3>
+                            <h2 class="menu-name">Bacon 2 floors</h2>
+                            <h2 class="price">R$ 25,50</h2>
+                        </div>
+                    </li>
+                    <li class="item3">
+                        <img class="burger-img" src="./img burger/Card-burger-1 1.png" alt="Texas">
+                        <div class="card">
+                            <h3>Tradicional</h3>
+                            <h2 class="menu-name">Texas Burger</h2>
+                            <h2 class="price">R$ 25,50</h2>
+                        </div>
+                    </li>
+                    <li class="item4">
+                        <img class="burger-img" src="./img burger/Card-burger-1 1.png" alt="Cheesy">
+                        <div class="card">
+                            <h3>Tradicional</h3>
+                            <h2 class="menu-name">Cheesy</h2>
+                            <h2 class="price">R$ 25,50</h2>
+                        </div>
+                    </li>
+                    <li class="item5">
+                        <img class="burger-img" src="./img burger/Card-burger-1 1.png" alt="Extra tomatoes">
+                        <div class="card">
+                            <h3>Tradicional</h3>
+                            <h2 class="menu-name">Extra tomatoes</h2>
+                            <h2 class="price">R$ 25,50</h2>
+                        </div>
+                    </li>
+                    <li class="item6">
+                        <img class="burger-img" src="./img burger/Card-burger-1 1.png" alt="egg">
+                        <div class="card">
+                            <h3>Tradicional</h3>
+                            <h2 class="menu-name">Bacon and eggs</h2>
+                            <h2 class="price">R$ 25,50</h2>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <footer class="bottom-final">
+            <div class="bottom-content">
+                <img class="bottom-logotype" src="./img burger/MicrosoftTeams-image.png" alt="logofinal">
+            </div>
+        </footer>
+    </main>
 </body>
 <script src="https://kit.fontawesome.com/149b000a36.js" crossorigin="anonymous"></script>
+
 </html>

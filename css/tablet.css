@@ -1,0 +1,117 @@
+.inicio {
+    opacity: 0;
+}
+
+.Burgers {
+    opacity: 0;
+    width: 100%;
+}
+
+.Contato {
+    opacity: 0;
+    width: 100%;
+}
+
+.fa-bars {
+    opacity: 1;
+    width: 100%;
+}
+
+.fa-face-smile {
+    position:relative;
+    right: 0px;
+    bottom: 0px;
+    font-size: 80px;
+}
+
+.order-top {
+    opacity: 0;
+}
+
+.top-content {
+    gap: 0px;
+}
+
+.burguer-one {
+    height: 400px;
+    position: relative;
+    top: 0px;
+}
+
+.content-top-txt {
+    font-size: 40px;
+    width: 40%;
+}
+
+.mid-top-content {
+    padding-left: 40px;
+}
+
+.content-bottom-txt {
+    height: 100%;
+    width: 40%;
+}
+
+.search-area {
+    padding-bottom: 0px;
+    padding-top: 40px;
+}
+
+.search-area {
+    width: 100%;
+}
+
+/* -------------------------------- */ 
+
+/*              MENU                */
+
+/* -------------------------------- */
+
+
+.list-menu {
+    display: grid;
+    grid-template-areas: 
+    "first second"
+    "third four"
+    "five six";
+    grid-template-columns: 2fr 2fr;
+    grid-auto-rows: 400px;
+    gap: 0px;
+}
+
+.item1 {
+    grid-area: first;
+    list-style: none;
+    width: 200px;
+    height: 200px;
+}
+.item2 {
+    grid-area: second;
+    list-style: none;
+    width: 200px;
+    height: 200px;
+}
+.item3 {
+    grid-area: third;
+    list-style: none;
+    width: 200px;
+    height: 200px;
+}
+.item4 {
+    grid-area: four;
+    list-style: none;
+    width: 200px;
+    height: 200px;
+}
+.item5 {
+    grid-area: five;
+    list-style: none;
+    width: 200px;
+    height: 200px;
+}
+.item6 {
+    grid-area: six;
+    list-style: none;
+    width: 200px;
+    height: 200px;
+}
