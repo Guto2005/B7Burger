@@ -21,7 +21,19 @@
     position:relative;
     right: 0px;
     bottom: 0px;
+    left: 20px;
     font-size: 80px;
+}
+
+.fa-magnifying-glass {
+    background-color: rgb(35, 35, 35);
+    padding: 20px;
+    height: 20px;
+    position: relative;
+    bottom: 4px;
+    border-radius: 20px 0px 0px 20px;
+    padding-right: 40px;
+    right: 40px;
 }
 
 .order-top {
@@ -30,17 +42,34 @@
 
 .top-content {
     gap: 0px;
+    position: relative;
+    left: 80px;
+}
+
+.title-icon {
+    padding-left: 40px;
 }
 
 .burguer-one {
-    height: 400px;
+    height: 350px;
     position: relative;
     top: 0px;
+    padding-left:20px;
+    left: 0px;
+    right: 50px;
 }
 
 .content-top-txt {
     font-size: 40px;
     width: 40%;
+    position: relative;
+    bottom: 30px;
+}
+
+.content-btn {
+    position: relative;
+    bottom: 150px;
+    width: 100%;
 }
 
 .mid-top-content {
@@ -50,16 +79,52 @@
 .content-bottom-txt {
     height: 100%;
     width: 40%;
+    position: relative;
+    bottom: 150px;
+    left: 40px;
 }
 
 .search-area {
-    padding-bottom: 0px;
     padding-top: 40px;
-}
-
-.search-area {
     width: 100%;
 }
+
+.search-title {
+    width: 100%;
+    font-size: 35px;
+    padding-left: 80px;
+    position: relative;
+    left: 80px;
+}
+
+.btn-pesquisa {
+    padding-left: 80px;
+    right: 70px;
+}
+
+.search-bar {
+   padding-left: 130px;
+}
+
+.search-tools {
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-list {
+    position: relative;
+    top: 40px;
+    width: 90%;
+}
+
+.search-list select {
+    padding-left: 100px;
+    position: relative;
+    left: 80px;
+    font-size: 20px;
+}
+
+
 
 /* -------------------------------- */ 
 
@@ -76,7 +141,7 @@
     "five six";
     grid-template-columns: 2fr 2fr;
     grid-auto-rows: 400px;
-    gap: 0px;
+    gap: 100px;
 }
 
 .item1 {
@@ -90,6 +155,7 @@
     list-style: none;
     width: 200px;
     height: 200px;
+    padding-left: 80px;
 }
 .item3 {
     grid-area: third;
@@ -102,6 +168,7 @@
     list-style: none;
     width: 200px;
     height: 200px;
+    padding-left: 80px;
 }
 .item5 {
     grid-area: five;
@@ -114,4 +181,5 @@
     list-style: none;
     width: 200px;
     height: 200px;
+    padding-left: 80px;
 }

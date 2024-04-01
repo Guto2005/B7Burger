@@ -5,18 +5,17 @@
 .top-content {
     flex-direction: row;
     overflow: hidden;
-    padding-left: 150px;
     gap: 0px;
     width: 100%;
     position: relative;
-    left: 40px;
+    left: 20px;
 }
 
 .mid-top-content {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    padding-left: 100px;
+    padding-left: 0px;
 }
 
 .title-icon {
@@ -32,16 +31,17 @@
     font-size: 40px;
     max-width: 600px;
     min-width: 300px;
-    height: 50%;
-    font-size: 50px;
-    padding-left: 60px;
+    height: 80%;
+    font-size: 40px;
+    padding-left: 20px;
     justify-content: center;
 }
 
 .content-bottom-txt {
     position: relative;
     bottom: 60px;
-    padding-left: 100px;
+    padding-left: 0px;
+    width: 90%;
 }
 
 .content-btn {
@@ -112,11 +112,11 @@
 
 .fa-face-smile {
     position:relative;
-    right: 20px;
-    bottom: 80px;
+    left: 130px;
+    bottom: 180px;
     padding-top: 60px;
     padding-left: 10px;
-    font-size: 100px;
+    font-size: 40px;
 }
 
 .btn-pesquisa {
