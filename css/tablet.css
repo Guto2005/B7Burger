@@ -32,7 +32,7 @@
     position: relative;
     bottom: 4px;
     border-radius: 20px 0px 0px 20px;
-    padding-right: 40px;
+    padding-right: 30px;
     right: 40px;
 }
 
@@ -103,7 +103,7 @@
 }
 
 .search-bar {
-   padding-left: 130px;
+   padding-left: 0px;
 }
 
 .search-tools {
@@ -141,7 +141,7 @@
     "five six";
     grid-template-columns: 2fr 2fr;
     grid-auto-rows: 400px;
-    gap: 100px;
+    gap: 20px;
 }
 
 .item1 {
